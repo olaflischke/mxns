@@ -1,0 +1,85 @@
+﻿<Window
+    x:Class="EierfarmUi.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:EierfarmUi"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="347.097"
+    Height="343.516"
+    mc:Ignorable="d">
+    <Canvas>
+        <ComboBox
+            x:Name="cbxTiere"
+            Canvas.Left="118"
+            Canvas.Top="26"
+            Width="120"
+            DisplayMemberPath="Name" />
+        <Button
+            x:Name="btnNeuesHuhn"
+            Canvas.Left="243"
+            Canvas.Top="28"
+            Width="75"
+            Click="btnNeuesHuhn_Click"
+            Content="Huhn" />
+        <Button
+            x:Name="btnNeueGans"
+            Canvas.Left="243"
+            Canvas.Top="53"
+            Width="75"
+            Click="btnNeueGans_Click"
+            Content="Gans" />
+        <TextBox
+            x:Name="txtId"
+            Canvas.Left="118"
+            Canvas.Top="56"
+            Width="120"
+            Height="23"
+            IsReadOnly="True"
+            Text="{Binding ElementName=cbxTiere, Path=SelectedItem.Id}" />
+        <TextBox
+            x:Name="txtName"
+            Canvas.Left="118"
+            Canvas.Top="84"
+            Width="120"
+            Height="23"
+            Text="{Binding ElementName=cbxTiere, Path=SelectedItem.Name}" />
+        <TextBox
+            x:Name="txtGewicht"
+            Canvas.Left="118"
+            Canvas.Top="112"
+            Width="120"
+            Height="23"
+            Text="{Binding ElementName=cbxTiere, Path=SelectedItem.Gewicht}" />
+        <ListBox
+            x:Name="lbxEier"
+            Canvas.Left="118"
+            Canvas.Top="140"
+            Width="120"
+            Height="147"
+            ItemsSource="{Binding ElementName=cbxTiere, Path=SelectedItem.Eier}" />
+        <Button
+            x:Name="btnFuettern"
+            Canvas.Left="243"
+            Canvas.Top="115"
+            Width="75"
+            Click="btnFuettern_Click"
+            Content="Füttern" />
+        <Button
+            x:Name="btnEiLegen"
+            Canvas.Left="243"
+            Canvas.Top="140"
+            Width="75"
+            Click="btnEiLegen_Click"
+            Content="Ei legen" />
+        <Button
+            x:Name="btnNeuesSchnabeltier"
+            Canvas.Left="243"
+            Canvas.Top="78"
+            Width="75"
+            Click="btnNeuesSchnabeltier_Click"
+            Content="Schnabeltier" />
+
+    </Canvas>
+</Window>

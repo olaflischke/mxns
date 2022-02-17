@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EierfarmBl.Gans">
+    <Position X="1.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAEAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Gans.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EierfarmBl.Huhn">
+    <Position X="4.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Huhn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EierfarmBl.Gefluegel">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACIAEAAAAAQAAAIAAAAAQAgAAAAABAAAAEAAAAAAA=</HashCode>
+      <FileName>Gefluegel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EierfarmBl.Saeugetier">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Saeugetier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EierfarmBl.Schnabeltier">
+    <Position X="7.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAEAAAAAAAQAAAAAAAAAAAAAAAAABAAAAEAAAAAAA=</HashCode>
+      <FileName>Schnabeltier.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="EierfarmBl.IEiLeger">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAQAAAAAAAAAAAAAAAAABAAAAEAAAAAAA=</HashCode>
+      <FileName>IEiLeger.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
