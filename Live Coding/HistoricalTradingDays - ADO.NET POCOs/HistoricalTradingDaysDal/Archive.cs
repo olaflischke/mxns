@@ -13,16 +13,6 @@ namespace HistoricalTradingDaysDal
         public Archive(string url)
         {
             this.TradingDays = GetData(url);
-            //SaveToDb();
-        }
-
-        private void SaveToDb()
-        {
-            TradingDayContext context = new TradingDayContext();
-
-            context.TradingDays.AddRange(this.TradingDays);
-
-            context.SaveChanges();
         }
 
         private List<TradingDay> GetData(string url)

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EierfarmBl", "EierfarmBl\Ei
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EierfarmUi", "EierfarmUi\EierfarmUi.csproj", "{C8BF0AC8-A22C-4900-B007-A608E8DAC3EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EierfarmUiWindowsForms", "EierfarmUiWindowsForms\EierfarmUiWindowsForms.csproj", "{DF08BC4F-C0E8-4567-97CD-3DE228AAA3DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C8BF0AC8-A22C-4900-B007-A608E8DAC3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8BF0AC8-A22C-4900-B007-A608E8DAC3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8BF0AC8-A22C-4900-B007-A608E8DAC3EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF08BC4F-C0E8-4567-97CD-3DE228AAA3DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF08BC4F-C0E8-4567-97CD-3DE228AAA3DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF08BC4F-C0E8-4567-97CD-3DE228AAA3DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF08BC4F-C0E8-4567-97CD-3DE228AAA3DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

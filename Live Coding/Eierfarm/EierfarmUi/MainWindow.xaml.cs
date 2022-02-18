@@ -30,8 +30,15 @@ namespace EierfarmUi
         {
             Huhn huhn = new Huhn();
 
+            huhn.PropertyChanged += this.Tier_PropertyChanged;
+
             cbxTiere.Items.Add(huhn);
             cbxTiere.SelectedItem = huhn;
+        }
+
+        private void Tier_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         private void btnNeueGans_Click(object sender, RoutedEventArgs e)

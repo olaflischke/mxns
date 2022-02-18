@@ -24,8 +24,7 @@ namespace HistoricalTradingDaysDal
             var q = xElement.Elements().Select(el => new ExchangeRate()
             {
                 Symbol = el.Attribute("currency").Value,
-                EuroRate = Convert.ToDouble(el.Attribute("rate").Value, nfiEzb),
-                TradingDay = this
+                EuroRate = Convert.ToDouble(el.Attribute("rate").Value, nfiEzb)
             });
 
             this.ExchangeRates = q.ToList();
@@ -34,6 +33,5 @@ namespace HistoricalTradingDaysDal
 
         public DateTime Date { get; set; }
         public List<ExchangeRate> ExchangeRates { get; set; }
-        public int Id { get; set; }
     }
 }
